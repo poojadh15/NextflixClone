@@ -1,14 +1,7 @@
-import './App.css';
-
+import Body from "./components/Body";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p className='text-center font-bold'>
-         This is a Netflix clone
-        </p>
-      </header>
-    </div>
+    <Body/>
   );
 }
 
